@@ -1,0 +1,27 @@
+// Fonts importation 
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Manjari';
+    font-style: normal;
+    src: url(../fonts/Manjari/Manjari-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'Manjari';
+    font-style: normal;
+    src: url(../fonts/Manjari/Manjari-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Manjari';
+    font-style: bold;
+    src: url(../fonts/Manjari/Manjari-Bold.ttf);
+}
+
+$primary: #104879;
+$danger: #ff4136;
+@import "~bootstrap/scss/bootstrap";
