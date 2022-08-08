@@ -18,6 +18,14 @@
 
 /*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */
 
+/*! -!../../node_modules/css-loader/dist/cjs.js!../../node_modules/bootstrap-icons/font/bootstrap-icons.css */
+
+/*! ../../css-loader/dist/runtime/api.js */
+
+/*! ../../css-loader/dist/runtime/getUrl.js */
+
+/*! ../../css-loader/dist/runtime/sourceMaps.js */
+
 /*! ../../node_modules/css-loader/dist/runtime/api.js */
 
 /*! ../../node_modules/css-loader/dist/runtime/getUrl.js */
@@ -119,6 +127,10 @@
 /*! ./expandToHashMap.js */
 
 /*! ./flip.js */
+
+/*! ./fonts/bootstrap-icons.woff2?8d200481aa7f02a2d63a331fc782cfaf */
+
+/*! ./fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf */
 
 /*! ./format.js */
 
@@ -555,6 +567,18 @@
 /*!**********************************************************************************!*\
   !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
   \**********************************************************************************/
+
+/*!*****************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap-icons/font/bootstrap-icons.css ***!
+  \*****************************************************************************************************/
+
+/*!*******************************************************************************************************!*\
+  !*** ./node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf ***!
+  \*******************************************************************************************************/
+
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2?8d200481aa7f02a2d63a331fc782cfaf ***!
+  \********************************************************************************************************/
 
 /*!******************************************************************************************************************************************************!*\
   !*** data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27-4 -4 8 8%27%3e%3ccircle r=%272%27 fill=%27%23fff%27/%3e%3c/svg%3e ***!
