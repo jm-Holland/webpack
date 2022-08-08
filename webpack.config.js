@@ -112,6 +112,7 @@ module.exports = {
             `...`,
             new CssMinimizerPlugin(),
         ],
+        removeAvailableModules: false,
 
     },
 }
