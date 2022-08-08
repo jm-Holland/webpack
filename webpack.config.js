@@ -9,6 +9,15 @@ const webpack = require('webpack');
 
 module.exports = {
     mode: isProductionMode ? "production" : "development",
+    cache: {
+        type: 'filesystem',
+        compression: 'gzip',
+        cacheDirectory: path.resolve(__dirname, 'dist/.temp_cache'),
+        allowCollectingMemory: true,
+        buildDependencies: {
+            config: [__filename],
+        }
+    },
     entry: {
         index: path.resolve(__dirname, './src/js/index.js'),
 
