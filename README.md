@@ -28,22 +28,24 @@ On utilisera [webpack-dev](https://webpack.js.org/api/webpack-dev-server/#root) 
 ## Index
 
 - [Démarrage](#demarrage)
-- [utilisation](#utilisation)
+- [Utilisation](#utilisation)
+- [Images et fonts](#images)
 - [Licence](#licence)
 
-## Démarrage 
+## [Démarrage](#demarrage) 
 
 Començons par télécharger le dossier sur votre ordinateur. Ouvrer le avec votre éditeur de code (pour ma part [vscode](https://code.visualstudio.com/)), ouvrez un terminal et installez les packages avec la commande terminal suivante: 
 ```console
 yarn install
 ```
-## Utilisation
+## [Utilisation](#utilisation)
 
 Il existe deux méthodes principales recommandées pour utiliser le package :
 
 ### Mode Développement
 
-Permet le développement local, il suffit de modifier les fichiers dans le dossier 'src'.
+Ce mode permet le développement sur votre ordinateur.
+Ouvrez votre Terminal et taper la commande suivante: 
 
 ```console
 yarn dev
@@ -53,16 +55,22 @@ La méthode démarrera une instance de serveur et commencera à écouter les con
 
 webpack-dev-server est configuré par défaut pour prendre en charge le rechargement en direct des fichiers. Vous pouvez modifiez vos actifs pendant que le serveur est en cours d'exécution, le navigateur rechargera au fûr et à mesure des modifications éffectués.
 
-### En Production
+### Mode Production
 
-Pour la mise en production de votre site quand toutes vos modifications sont terminées
+Si vous avez terminé le développement de votre site il faut maintenant le passer en production.
+Pour se faire, dans votre terminal taper la commande suivante :
 
 ```console 
 yarn build
 ```
-Webpack compilera tout le code et le minifiera, tout ce que vous avez à faire est de copier les éléments du dossier Dist et de les déposer sur votre serveur.
+Webpack compilera tout le code et le mimiifiera, tout ce que vous avez à faire ensuite, est de copier les éléments du dossier **dist** et de les déposer sur votre serveur en ligne.
 
 
-## License
+## [Images & fonts](#images)
+
+Pour la gestion des images et des fonts, dans le dossier **src** déposer vos éléments dans les dossiers correspondant.
+Lors de la compilation du code, les images et les fonts seront automatiquement copiés dans le dossier **dist**, vous n'avez rien à faire si ce n'est de gérer le poids et la dimensions de vos images.
+
+### [Licence](#licence)
 
 #### [MIT](./LICENSE)
