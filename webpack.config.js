@@ -27,6 +27,7 @@ module.exports = {
             title: 'webpack Tutoriel',
             template: path.resolve(__dirname, './src/index.html'), // template file
             filename: 'index.html', // output file
+            minify: true,
         }),
         new MiniCssExtractPlugin({
             filename: isProductionMode ? "[name].[contenthash].css" : "[name].css",
