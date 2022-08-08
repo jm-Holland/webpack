@@ -4,68 +4,65 @@
   </a>
 </div>
 
-
-
 # webpack-dev Sass Babel Bootstrap 
 
-Use [webpack](https://webpack.js.org) with a development server that provides
-live reloading. This should only be used for **development only**.
+Ce pack est conçu pour fourni une base de développement d'un petit site web en HTML.
 
-
-We will use [webpack-dev](https://webpack.js.org/api/webpack-dev-server/#root) under the hood, which provides
-fast in-memory access to Webpack resources.
-
-
-## Table of Contents
-
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [License](#license)
+Les outils de bases sont:
+- [Bootstrap 5.2.0](https://getbootstrap.com/)
+- [Bootstrap-icons 1.9.0](https://icons.getbootstrap.com/)
+- [ Sass 1.54.3](https://sass-lang.com/)
+- [Babel 7.18.10](https://babel.dev/docs/en/babel-core/)
+- [PostCss](https://github.com/postcss/postcss/blob/main/docs/README-cn.md)
+- [Autoprefixer](https://autoprefixer.github.io/)
 
 
 
-## Getting Started
 
-The first to do is install the modules with the following terminal command:
+Nous utiliserons [webpack](https://webpack.js.org) avec un serveur de développement qui fournit un rechargement en direct. 
 
+**Cela ne doit être utilisé que pour le développement.**
 
-> Fr _ 
+On utilisera [webpack-dev](https://webpack.js.org/api/webpack-dev-server/#root) sous le capot, qui fournit un accès rapide en mémoire aux ressources Webpack.
 
+## Index
+
+- [Démarrage](#demarrage)
+- [utilisation](#utilisation)
+- [Licence](#licence)
+
+## Démarrage 
+
+Començons par télécharger le dossier sur votre ordinateur. Ouvrer le avec votre éditeur de code (pour ma part [vscode](https://code.visualstudio.com/)), ouvrez un terminal et installez les packages avec la commande terminal suivante: 
 ```console
 yarn install
 ```
+## Utilisation
 
+Il existe deux méthodes principales recommandées pour utiliser le package :
 
-## Usage
+### Mode Développement
 
-There are two main, recommended methods of using the package:
-
-### in Dev mode 
-
-Allows local development, just modify the files in the source folder.
+Permet le développement local, il suffit de modifier les fichiers dans le dossier 'src'.
 
 ```console
 yarn dev
 ```
+Cela ouvre le serveur de développement [webpack-dev](https://webpack.js.org/api/webpack-dev-server/#root) qui ouvrira automatiquement votre navigateur Web par défaut sur votre système et affichera la page du site.
+La méthode démarrera une instance de serveur et commencera à écouter les connexions sur  [localhost:8080](https://loacalhost:8080).
 
-This opens the development server [webpack-dev](https://webpack.js.org/api/webpack-dev-server/#root) which will automatically open your default web browser on your system and display the site page .
-The method will start a server instance and begin listening for connections on [localhost:8080](https://loacalhost:8080).
+webpack-dev-server est configuré par défaut pour prendre en charge le rechargement en direct des fichiers. Vous pouvez modifiez vos actifs pendant que le serveur est en cours d'exécution, le navigateur rechargera au fûr et à mesure des modifications éffectués.
 
-webpack-dev-server is configured by default to support live file reloading. You can edit your assets while the server is running, the browser will reload as changes are made.
+### En Production
 
-### in Production mode
+Pour la mise en production de votre site quand toutes vos modifications sont terminées
 
-For the production of your site when all your modifications are finished
-
-```
+```console 
 yarn build
 ```
-Webpack will compile all the code and minify it, all you have to do is copy the elements from the Dist folder and drop them on your server.
-
-
+Webpack compilera tout le code et le minifiera, tout ce que vous avez à faire est de copier les éléments du dossier Dist et de les déposer sur votre serveur.
 
 
 ## License
 
 #### [MIT](./LICENSE)
-
