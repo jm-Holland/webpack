@@ -23,7 +23,7 @@ Ce pack est conçu pour fourni une base de développement d'un petit site web en
 - [ Sass 1.54.3](https://sass-lang.com/)
 - [Babel 7.18.10](https://babel.dev/docs/en/babel-core/)
 - [PostCss](https://github.com/postcss/postcss/blob/main/docs/README-cn.md)
-- [Autoprefixer](https://autoprefixer.github.io/)
+- [Autoprefixer](https://github.com/postcss/autoprefixer)
 
 
 Nous utiliserons [webpack](https://webpack.js.org) avec un serveur de développement qui fournit un rechargement en direct. 
