@@ -6,9 +6,18 @@
 
 # webpack-dev Sass Babel Bootstrap 
 
-Ce pack est conçu pour fourni une base de développement d'un petit site web en HTML.
+Ce pack est conçu pour fourni une base de développement d'un petit site web en HTML, SCSS et Javascript.
 
-Les outils de bases sont:
+## Index
+
+- [Installation](#installation)
+- [Utilisation](#utilisation)
+- [Images et fonts](#images)
+- [Licence](#licence)
+
+
+## Les outils de bases sont:
+
 - [Bootstrap 5.2.0](https://getbootstrap.com/)
 - [Bootstrap-icons 1.9.0](https://icons.getbootstrap.com/)
 - [ Sass 1.54.3](https://sass-lang.com/)
@@ -17,22 +26,14 @@ Les outils de bases sont:
 - [Autoprefixer](https://autoprefixer.github.io/)
 
 
-
-
 Nous utiliserons [webpack](https://webpack.js.org) avec un serveur de développement qui fournit un rechargement en direct. 
 
 **Cela ne doit être utilisé que pour le développement.**
 
 On utilisera [webpack-dev](https://webpack.js.org/api/webpack-dev-server/#root) sous le capot, qui fournit un accès rapide en mémoire aux ressources Webpack.
 
-## Index
 
-- [Démarrage](#demarrage)
-- [Utilisation](#utilisation)
-- [Images et fonts](#images)
-- [Licence](#licence)
-
-## [Démarrage](#demarrage) 
+## [Installation](#Installation) 
 
 Començons par télécharger le dossier sur votre ordinateur. Ouvrer le avec votre éditeur de code (pour ma part [vscode](https://code.visualstudio.com/)), ouvrez un terminal et installez les packages avec la commande terminal suivante: 
 ```console
@@ -71,6 +72,6 @@ Webpack compilera tout le code et le mimiifiera, tout ce que vous avez à faire 
 Pour la gestion des images et des fonts, dans le dossier **src** déposer vos éléments dans les dossiers correspondant.
 Lors de la compilation du code, les images et les fonts seront automatiquement copiés dans le dossier **dist**, vous n'avez rien à faire si ce n'est de gérer le poids et la dimensions de vos images.
 
-### [Licence](#licence)
+### [Licence CreativeCommuns](https://github.com/illaweb35/Licence)
 
-#### [MIT](./LICENSE)
+

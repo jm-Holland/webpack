@@ -1,28 +1,21 @@
 // Fonts importation 
 @font-face {
-    font-family: 'Comfortaa';
-    src: url(../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf);
+    font-family: "Comfortaa";
+    src: local("Comfortaa"),
+        url("../fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf") format("trueType");
 }
 
 @font-face {
-    font-family: 'Manjari';
-    font-style: normal;
-    src: url(../fonts/Manjari/Manjari-Thin.ttf);
+    font-family: "Manjari";
+    src: local("Manjari"),
+        url("../fonts/Manjari/Manjari-Regular.ttf") format("trueType");
 }
 
 @font-face {
-    font-family: 'Manjari';
-    font-style: normal;
-    src: url(../fonts/Manjari/Manjari-Regular.ttf);
+    font-family: "Quicksand";
+    src: local("Quicksand"),
+        url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf") format("trueType");
 }
 
-@font-face {
-    font-family: 'Manjari';
-    font-style: bold;
-    src: url(../fonts/Manjari/Manjari-Bold.ttf);
-}
-
-$primary: #104879;
-$danger: #ff4136;
 @import "~bootstrap/scss/bootstrap";
 @import "~bootstrap-icons/font/bootstrap-icons.css"
