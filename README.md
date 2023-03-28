@@ -52,7 +52,7 @@ Ouvrez votre Terminal et taper la commande suivante:
 yarn dev
 ```
 Cela ouvre le serveur de développement [webpack-dev](https://webpack.js.org/api/webpack-dev-server/#root) qui ouvrira automatiquement votre navigateur Web par défaut sur votre système et affichera la page du site.
-La méthode démarrera une instance de serveur et commencera à écouter les connexions sur  [localhost:8080](https://loacalhost:8080).
+La méthode démarrera une instance de serveur et commencera à écouter les connexions sur  [localhost:9000](https://loacalhost:9000).
 
 webpack-dev-server est configuré par défaut pour prendre en charge le rechargement en direct des fichiers. Vous pouvez modifiez vos actifs pendant que le serveur est en cours d'exécution, le navigateur rechargera au fûr et à mesure des modifications éffectués.
 

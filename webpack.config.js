@@ -6,7 +6,6 @@ const CopyPlugin = require("copy-webpack-plugin");
 const path = require('path');
 const webpack = require('webpack');
 
-
 module.exports = {
     mode: isProductionMode ? "production" : "development",
     cache: {
@@ -19,12 +18,12 @@ module.exports = {
         }
     },
     entry: {
-        index: path.resolve(__dirname, './src/js/index.js'),
+        index: path.resolve(__dirname, './src/index.js'),
 
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'webpack Tutoriel',
+            title: 'webpack dev structure',
             template: path.resolve(__dirname, './src/index.html'), // template file
             filename: 'index.html', // output file
             minify: true,
@@ -35,11 +34,8 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 { from: "src/images", to: "images" },
-
             ],
-
         }),
-
     ],
     devtool: 'source-map',
     devServer: {
@@ -47,7 +43,7 @@ module.exports = {
             directory: path.join(__dirname, 'dist'),
         },
         compress: true,
-        port: 8080,
+        port: 9000,
         historyApiFallback: true,
     },
     output: {
@@ -95,8 +91,6 @@ module.exports = {
                     },
                 ],
             },
-
-
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
                 type: 'asset/resource',
@@ -113,6 +107,5 @@ module.exports = {
             new CssMinimizerPlugin(),
         ],
         removeAvailableModules: false,
-
     },
 }

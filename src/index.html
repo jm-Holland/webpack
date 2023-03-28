@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="images/37.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="images/illaweb.png" type="image/x-icon">
 	<meta name="description" content="Webpack developpement site internet">
 	<meta name="author" content="jmHolland@illaweb.fr">
 	<title>
@@ -61,54 +61,39 @@
 			<hr>
 			<p>On utilisera <a href="https://webpack.js.org/api/webpack-dev-server/#root">webpack-dev</a> sous le capot,
 				qui fournit un accès rapide en mémoire aux ressources Webpack.</p>
-
-
 			<h2 id="installation">Installation</h2>
 			<p>Començons par télécharger le dossier sur votre ordinateur. Ouvrer le avec votre éditeur de code (pour ma
 				part <a href="https://code.visualstudio.com/">VSCode</a>), ouvrez un terminal et installez les packages
 				avec la commande terminal suivante:</p>
-
 			<p><code>yarn install</code></p>
-
-
-
 			<h2 id="utilsation">Utilisation</h2>
 			<p>Il existe deux méthodes principales recommandées pour utiliser le package :</p>
 
 			<h3>Mode Développement</h3>
-
 			<p>Ce mode permet le développement sur votre ordinateur.
 				Ouvrez votre Terminal et taper la commande suivante:</p>
 			<p>
 				<code>yarn dev</code>
 			</p>
-
-
 			<p>Cela ouvre le serveur de développement <a
 					href="https://webpack.js.org/api/webpack-dev-server/#root">webpack-dev</a>
 				qui ouvrira automatiquement votre navigateur Web par défaut sur votre système et affichera la page du
 				site.
 				La méthode démarrera une instance de serveur et commencera à écouter les connexions sur
-				<a href="http://localhost:8080">localhost:8080</a>.
+				<a href="http://localhost:9000">localhost:9000</a>.
 			</p>
 			<p>webpack-dev-server est configuré par défaut pour prendre en charge le rechargement en direct des
 				fichiers.
 				Vous pouvez modifiez vos actifs pendant que le serveur est en cours d'exécution, le navigateur
 				rechargera au fûr et
 				à mesure des modifications éffectués.</p>
-
-
 			<h3>Mode Production</h3>
 			<p>Si vous avez terminé le développement de votre site il faut maintenant le passer en production.
 				Pour se faire, dans votre terminal taper la commande suivante :</p>
-
 			<p><code>yarn build</code></p>
-
 			<p>Webpack compilera tout le code et le mimiifiera, tout ce que vous avez à faire ensuite, est de copier les
 				éléments du
 				dossier <strong>dist</strong> et de les déposer sur votre serveur en ligne.</p>
-
-
 			<h2 id="images">Images & fonts</h2>
 			<p>Pour la gestion des images et des fonts, dans le dossier <strong>src</strong> déposer vos éléments dans
 				les dossiers correspondant.
@@ -116,14 +101,10 @@
 				<strong>dist</strong>, vous n'avez rien à faire si ce n'est de gérer le poids et la dimensions de vos
 				images.
 			</p>
-
 			<h2 id="licence"></h2>
-
 			<a href="https://github.com/illaweb35/Licence">Licence CreativeCommuns</a>
-
 		</div>
 	</main>
-
 </body>
 
 </html>
