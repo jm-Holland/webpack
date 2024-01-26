@@ -72,6 +72,6 @@ Webpack compilera tout le code et le mimiifiera, tout ce que vous avez à faire 
 Pour la gestion des images et des fonts, dans le dossier **src** déposer vos éléments dans les dossiers correspondant.
 Lors de la compilation du code, les images et les fonts seront automatiquement copiés dans le dossier **dist**, vous n'avez rien à faire si ce n'est de gérer le poids et la dimensions de vos images.
 
-### [Licence CreativeCommuns](https://github.com/illaweb35/Licence)
+### [Licence CreativeCommuns](https://github.com/jm-Holland/Licence)
 
 
